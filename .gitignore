@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Node (if dashboard uses React/Node)
+node_modules/
+
+# Dataset files
+data/
+*.csv
+*.pcap
+
+# OS files
+.DS_Store
+Thumbs.db

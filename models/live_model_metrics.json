@@ -1,0 +1,56 @@
+{
+  "trained_at": "2026-03-08T05:48:56.003991Z",
+  "rows_used": 300000,
+  "features": [
+    "Flow Duration",
+    "Total Fwd Packets",
+    "Total Backward Packets",
+    "Total Length of Fwd Packets",
+    "Total Length of Bwd Packets",
+    "Fwd Packet Length Mean",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "SYN Flag Count",
+    "ACK Flag Count",
+    "RST Flag Count",
+    "FIN Flag Count"
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9960629921259843,
+      "recall": 0.9825752855659398,
+      "f1-score": 0.9892731682837069,
+      "support": 48150.0
+    },
+    "1": {
+      "precision": 0.9328907374820029,
+      "recall": 0.9842194092827005,
+      "f1-score": 0.9578679369250985,
+      "support": 11850.0
+    },
+    "accuracy": 0.9829,
+    "macro avg": {
+      "precision": 0.9644768648039936,
+      "recall": 0.9833973474243201,
+      "f1-score": 0.9735705526044027,
+      "support": 60000.0
+    },
+    "weighted avg": {
+      "precision": 0.983586471833798,
+      "recall": 0.9829,
+      "f1-score": 0.9830706350903817,
+      "support": 60000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      47311,
+      839
+    ],
+    [
+      187,
+      11663
+    ]
+  ],
+  "roc_auc": 0.9985397400002629
+}
