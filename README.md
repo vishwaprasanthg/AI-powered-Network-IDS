@@ -308,5 +308,3 @@ Cybersecurity and Machine Learning Enthusiast
 This project is intended for **educational and research purposes**.
 
 ---
-
-If you want, I can also give you a **GitHub README that looks like a professional cybersecurity tool (with badges, screenshots, and diagrams)** which makes recruiters notice your project immediately.
